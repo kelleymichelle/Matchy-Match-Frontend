@@ -1,6 +1,6 @@
 // const BACKEND_URL = "http://localhost:3000";
 // const PLAYERS_URL = `${BACKEND_URL}/players`;
-const BACKEND_URL = 'http://matchy-match-backend.herokuapp.com'
+const BACKEND_URL = 'https://matchy-match-backend.herokuapp.com'
 
 document.addEventListener("DOMContentLoaded", function() {
   newGameForm();
