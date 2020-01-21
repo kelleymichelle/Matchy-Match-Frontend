@@ -79,7 +79,7 @@ const postPlayer = (name, level) => {
     },
     body: JSON.stringify(player)
   };
-  fetch("http://localhost:3000/players", configObj)
+  fetch(`${BACKEND_URL}/players`, configObj)
     .then(function(response) {
       return response.json();
     })
