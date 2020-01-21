@@ -3,7 +3,7 @@ const listenTiles = () => {
   const allTiles = [...document.getElementsByClassName("flip-card-inner")]
   allTiles.forEach(tile => {
     
-    tile.addEventListener('click', tileAct)
+    tile.addEventListener('mousedown', tileAct)
   })
 }
 
