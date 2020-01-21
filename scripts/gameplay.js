@@ -4,6 +4,7 @@ const listenTiles = () => {
   allTiles.forEach(tile => {
     
     tile.addEventListener('mousedown', tileAct)
+    tile.addEventListener('touchstart', tileAct)
   })
 }
 
